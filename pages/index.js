@@ -1,7 +1,21 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import ProductList from "../components/ProductList";
+import { getProductsInCollection } from "../lib/shopify";
 
-export default function Home() {
-  return <div className="text-3xl">App</div>;
+const Home = ({ products }) => {
+  console.log(products);
+  return (
+    <>
+      <ProductList products={products} />
+    </>
+  );
+};
+
+export default Home;
+
+export async function getStaticProps() {
+  const products = await getProductsInCollection();
+
+  return {
+    props: { products },
+  };
 }
