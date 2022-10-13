@@ -1,8 +1,11 @@
 import { useState, useContext } from "react";
 import ProductOptions from "./ProductOptions";
+import { CartContext } from "../context/shopContext";
 import { formatter } from "../utils/helpers";
 
 const ProductForm = ({ product }) => {
+  const { addToCart } = useContext(CartContext);
+
   const allVariantOptions = product.variants.edges?.map((variant) => {
     const allOptions = {};
 
@@ -63,9 +66,14 @@ const ProductForm = ({ product }) => {
           selectedVariant={selectedVariant}
         />
       ))}
-      <button className="px-2 py-3 mt-3 text-white bg-black rounded-lg hover:bg-gray-800">
+      <button
+        onClick={() => {
+          addToCart(selectedVariant);
+        }}
+        className="px-2 py-3 mt-3 text-white bg-black rounded-lg hover:bg-gray-800"
+      >
         Add To Card
-      </button>{" "}
+      </button>
     </div>
   );
 };

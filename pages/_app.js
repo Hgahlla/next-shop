@@ -1,11 +1,17 @@
+import { useRouter } from "next/router";
 import Layout from "../components/Layout";
+import ShopProvider from "../context/shopContext";
 import "tailwindcss/tailwind.css";
 
 const MyApp = ({ Component, pageProps }) => {
+  const router = useRouter();
+
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <ShopProvider>
+      <Layout>
+        <Component {...pageProps} key={router.asPath} />
+      </Layout>
+    </ShopProvider>
   );
 };
 
