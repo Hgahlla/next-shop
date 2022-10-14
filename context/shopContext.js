@@ -1,5 +1,5 @@
 import { useState, useEffect, createContext } from "react";
-import { createCheckout } from "../lib/shopify";
+import { createCheckout, updateCheckout } from "../lib/shopify";
 
 const CartContext = createContext();
 
@@ -27,7 +27,6 @@ const ShopProvider = ({ children }) => {
 
   const addToCart = async (addedItem) => {
     const newItem = { ...addedItem };
-    console.log(newItem);
     setCartOpen(true);
 
     if (cart.length === 0) {
@@ -56,7 +55,87 @@ const ShopProvider = ({ children }) => {
       }
 
       setCart(newCart);
+      const newCheckout = await updateCheckout(checkoutId, newCart);
+      localStorage.setItem(
+        "checkout_id",
+        JSON.stringify([newCart, newCheckout])
+      );
     }
+  };
+
+  const removeCartItem = async (itemToRemove) => {
+    const updatedCart = cart.filter((item) => item.id !== itemToRemove);
+    setCartLoading(true);
+
+    setCart(updatedCart);
+
+    const newCheckout = await updateCheckout(checkoutId, updatedCart);
+
+    localStorage.setItem(
+      "checkout_id",
+      JSON.stringify([updatedCart, newCheckout])
+    );
+    setCartLoading(false);
+
+    if (cart.length === 1) {
+      setCartOpen(false);
+    }
+  };
+
+  const incrementCartItem = async (item) => {
+    setCartLoading(true);
+
+    let newCart = [];
+
+    cart.map((cartItem) => {
+      if (cartItem.id === item.id) {
+        cartItem.variantQuantity++;
+        newCart = [...cart];
+      }
+    });
+    setCart(newCart);
+    const newCheckout = await updateCheckout(checkoutId, newCart);
+
+    localStorage.setItem("checkout_id", JSON.stringify([newCart, newCheckout]));
+    setCartLoading(false);
+  };
+
+  const decrementCartItem = async (item) => {
+    setCartLoading(true);
+
+    if (item.variantQuantity === 1) {
+      removeCartItem(item.id);
+    } else {
+      let newCart = [];
+      cart.map((cartItem) => {
+        if (cartItem.id === item.id) {
+          cartItem.variantQuantity--;
+          newCart = [...cart];
+        }
+      });
+
+      setCart(newCart);
+      const newCheckout = await updateCheckout(checkoutId, newCart);
+
+      localStorage.setItem(
+        "checkout_id",
+        JSON.stringify([newCart, newCheckout])
+      );
+    }
+    setCartLoading(false);
+  };
+
+  const clearCart = async () => {
+    const updatedCart = [];
+
+    setCart(updatedCart);
+
+    const newCheckout = await updateCheckout(checkoutId, updatedCart);
+
+    localStorage.setItem(
+      "checkout_id",
+      JSON.stringify([updatedCart, newCheckout])
+    );
   };
 
   return (
@@ -67,6 +146,11 @@ const ShopProvider = ({ children }) => {
         setCartOpen,
         addToCart,
         checkoutUrl,
+        removeCartItem,
+        clearCart,
+        cartLoading,
+        incrementCartItem,
+        decrementCartItem,
       }}
     >
       {children}
