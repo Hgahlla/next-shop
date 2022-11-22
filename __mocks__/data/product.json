@@ -1,0 +1,475 @@
+{
+    "collections": {
+        "edges": [
+            {
+                "node": {
+                    "products": {
+                        "edges": [
+                            {
+                                "node": {
+                                    "priceRange": {
+                                        "minVariantPrice": {
+                                            "amount": "75.0"
+                                        }
+                                    },
+                                    "handle": "plan-for-the-best",
+                                    "title": "Plan For The Best",
+                                    "id": "gid://shopify/Product/7932524527833",
+                                    "images": {
+                                        "edges": [
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample53.png?v=1665174841",
+                                                    "altText": "Plan For The Best"
+                                                }
+                                            },
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample54.png?v=1665174841",
+                                                    "altText": "Plan For The Best"
+                                                }
+                                            },
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample55.png?v=1665174841",
+                                                    "altText": "Plan For The Best"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "node": {
+                                    "priceRange": {
+                                        "minVariantPrice": {
+                                            "amount": "35.0"
+                                        }
+                                    },
+                                    "handle": "futurecyborg",
+                                    "title": "Future Cyborg",
+                                    "id": "gid://shopify/Product/7932524462297",
+                                    "images": {
+                                        "edges": [
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample44.png?v=1665174831",
+                                                    "altText": "Future Cyborg"
+                                                }
+                                            },
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample48.png?v=1665174831",
+                                                    "altText": "Future Cyborg"
+                                                }
+                                            },
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample47.png?v=1665174831",
+                                                    "altText": "Future Cyborg"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "node": {
+                                    "priceRange": {
+                                        "minVariantPrice": {
+                                            "amount": "18.0"
+                                        }
+                                    },
+                                    "handle": "namaste-motherboards",
+                                    "title": "Namaste Motherboards",
+                                    "id": "gid://shopify/Product/7932524331225",
+                                    "images": {
+                                        "edges": [
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample49_1.png?v=1665174819",
+                                                    "altText": "Namaste Motherboards"
+                                                }
+                                            },
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample51_1.png?v=1665174819",
+                                                    "altText": "Namaste Motherboards"
+                                                }
+                                            },
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample50_1.png?v=1665174819",
+                                                    "altText": "Namaste Motherboards"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "node": {
+                                    "priceRange": {
+                                        "minVariantPrice": {
+                                            "amount": "35.0"
+                                        }
+                                    },
+                                    "handle": "overstimulation",
+                                    "title": "Overstimulation",
+                                    "id": "gid://shopify/Product/7932524167385",
+                                    "images": {
+                                        "edges": [
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample60.png?v=1665174807",
+                                                    "altText": "Overstimulation"
+                                                }
+                                            },
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample61.png?v=1665174807",
+                                                    "altText": "Overstimulation"
+                                                }
+                                            },
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample62.png?v=1665174807",
+                                                    "altText": "Overstimulation"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "node": {
+                                    "priceRange": {
+                                        "minVariantPrice": {
+                                            "amount": "139.0"
+                                        }
+                                    },
+                                    "handle": "millionaire-in-the-waiting",
+                                    "title": "Millionaire in the Waiting",
+                                    "id": "gid://shopify/Product/7932524036313",
+                                    "images": {
+                                        "edges": [
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample56.png?v=1665174795",
+                                                    "altText": "Millionaire in the Waiting"
+                                                }
+                                            },
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample58.png?v=1665174795",
+                                                    "altText": "Millionaire in the Waiting"
+                                                }
+                                            },
+                                            {
+                                                "node": {
+                                                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample57.png?v=1665174795",
+                                                    "altText": "Millionaire in the Waiting"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "id": "gid://shopify/Product/7932524527833",
+    "title": "Plan For The Best",
+    "handle": "plan-for-the-best",
+    "description": "\"The greatest superpower is the ability to change yourself.\" - Naval Ravikant",
+    "images": {
+        "edges": [
+            {
+                "node": {
+                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample53.png?v=1665174841",
+                    "altText": "Plan For The Best"
+                }
+            },
+            {
+                "node": {
+                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample54.png?v=1665174841",
+                    "altText": "Plan For The Best"
+                }
+            },
+            {
+                "node": {
+                    "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample55.png?v=1665174841",
+                    "altText": "Plan For The Best"
+                }
+            }
+        ]
+    },
+    "options": [
+        {
+            "name": "Color",
+            "values": [
+                "Grey",
+                "Black"
+            ],
+            "id": "gid://shopify/ProductOption/10059379343577"
+        },
+        {
+            "name": "Size",
+            "values": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "id": "gid://shopify/ProductOption/10059379376345"
+        }
+    ],
+    "variants": {
+        "edges": [
+            {
+                "node": {
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "Grey"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "S"
+                        }
+                    ],
+                    "image": {
+                        "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample53.png?v=1665174841",
+                        "altText": "Plan For The Best"
+                    },
+                    "title": "Grey / S",
+                    "id": "gid://shopify/ProductVariant/43450646659289",
+                    "availableForSale": true,
+                    "priceV2": {
+                        "amount": "75.0"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "Grey"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "M"
+                        }
+                    ],
+                    "image": {
+                        "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample53.png?v=1665174841",
+                        "altText": "Plan For The Best"
+                    },
+                    "title": "Grey / M",
+                    "id": "gid://shopify/ProductVariant/43450646692057",
+                    "availableForSale": true,
+                    "priceV2": {
+                        "amount": "75.0"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "Grey"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "L"
+                        }
+                    ],
+                    "image": {
+                        "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample53.png?v=1665174841",
+                        "altText": "Plan For The Best"
+                    },
+                    "title": "Grey / L",
+                    "id": "gid://shopify/ProductVariant/43450646724825",
+                    "availableForSale": true,
+                    "priceV2": {
+                        "amount": "75.0"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "Grey"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "XL"
+                        }
+                    ],
+                    "image": {
+                        "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample53.png?v=1665174841",
+                        "altText": "Plan For The Best"
+                    },
+                    "title": "Grey / XL",
+                    "id": "gid://shopify/ProductVariant/43450646757593",
+                    "availableForSale": true,
+                    "priceV2": {
+                        "amount": "75.0"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "Grey"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "XXL"
+                        }
+                    ],
+                    "image": {
+                        "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample53.png?v=1665174841",
+                        "altText": "Plan For The Best"
+                    },
+                    "title": "Grey / XXL",
+                    "id": "gid://shopify/ProductVariant/43450646790361",
+                    "availableForSale": true,
+                    "priceV2": {
+                        "amount": "75.0"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "Black"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "S"
+                        }
+                    ],
+                    "image": {
+                        "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample53.png?v=1665174841",
+                        "altText": "Plan For The Best"
+                    },
+                    "title": "Black / S",
+                    "id": "gid://shopify/ProductVariant/43450646823129",
+                    "availableForSale": true,
+                    "priceV2": {
+                        "amount": "75.0"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "Black"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "M"
+                        }
+                    ],
+                    "image": {
+                        "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample53.png?v=1665174841",
+                        "altText": "Plan For The Best"
+                    },
+                    "title": "Black / M",
+                    "id": "gid://shopify/ProductVariant/43450646855897",
+                    "availableForSale": true,
+                    "priceV2": {
+                        "amount": "75.0"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "Black"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "L"
+                        }
+                    ],
+                    "image": {
+                        "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample53.png?v=1665174841",
+                        "altText": "Plan For The Best"
+                    },
+                    "title": "Black / L",
+                    "id": "gid://shopify/ProductVariant/43450646888665",
+                    "availableForSale": true,
+                    "priceV2": {
+                        "amount": "75.0"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "Black"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "XL"
+                        }
+                    ],
+                    "image": {
+                        "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample53.png?v=1665174841",
+                        "altText": "Plan For The Best"
+                    },
+                    "title": "Black / XL",
+                    "id": "gid://shopify/ProductVariant/43450646921433",
+                    "availableForSale": true,
+                    "priceV2": {
+                        "amount": "75.0"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "Black"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "XXL"
+                        }
+                    ],
+                    "image": {
+                        "url": "https://cdn.shopify.com/s/files/1/0663/4586/1337/products/Sample53.png?v=1665174841",
+                        "altText": "Plan For The Best"
+                    },
+                    "title": "Black / XXL",
+                    "id": "gid://shopify/ProductVariant/43450646954201",
+                    "availableForSale": true,
+                    "priceV2": {
+                        "amount": "75.0"
+                    }
+                }
+            }
+        ]
+    }
+}
